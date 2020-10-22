@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<!-- <link href="${PATH}/static/css/login.css"> -->
+<link href="/static/css/login.css" th:href="@{/static/css/login.css}">
+
+</head>
+<body>
+
+	<div th:text="${hello}"></div>
+	
+	<div th:each="name:${unames}" th:text="${name}" ></div>
+	
+	<div th:each="name:${unames}" > [[${name}]] </div>
+	
+	
+	
+	<script type="text/javascript" src="/static/jquery/jquery-2.1.1.min.js" th:src="@{/static/jquery/jquery-2.1.1.min.js}"></script>
+</body>
+</html>

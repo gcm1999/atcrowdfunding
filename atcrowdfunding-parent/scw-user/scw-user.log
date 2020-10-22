@@ -1,0 +1,178 @@
+2020-09-23 09:30:37.033  INFO 8732 --- [main] com.atguigu.scw.ScwUserApplication       : No active profile set, falling back to default profiles: default
+2020-09-23 09:30:37.480  INFO 8732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 09:30:37.482  INFO 8732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 09:30:37.502  INFO 8732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-09-23 09:30:37.678  WARN 8732 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.atguigu.scw.user.mapper]' package. Please check your configuration.
+2020-09-23 09:30:37.776  INFO 8732 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aaaa99e8-ec4d-3c27-8c95-318c918e152f
+2020-09-23 09:30:38.108  INFO 8732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7000 (http)
+2020-09-23 09:30:38.130  INFO 8732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-23 09:30:38.130  INFO 8732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-23 09:30:38.260  INFO 8732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-23 09:30:38.261  INFO 8732 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1208 ms
+2020-09-23 09:30:38.526  WARN 8732 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-23 09:30:38.526  INFO 8732 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-23 09:30:38.529  WARN 8732 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-23 09:30:38.529  INFO 8732 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-23 09:30:38.727  INFO 8732 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 09:30:40.770  INFO 8732 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-23 09:30:40.805  INFO 8732 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-23 09:30:41.449  INFO 8732 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-23 09:30:41.450  INFO 8732 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-23 09:30:41.572  INFO 8732 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-23 09:30:41.572  INFO 8732 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-23 09:30:41.744  INFO 8732 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-23 09:30:42.202  INFO 8732 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-23 09:30:42.202  INFO 8732 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-23 09:30:42.202  INFO 8732 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-23 09:30:42.202  INFO 8732 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-23 09:30:42.202  INFO 8732 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-23 09:30:42.203  INFO 8732 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-23 09:30:42.203  INFO 8732 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-23 09:30:42.302  INFO 8732 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-23 09:30:42.304  INFO 8732 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-23 09:30:42.308  INFO 8732 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-23 09:30:42.312  INFO 8732 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600824642311 with initial instances count: 0
+2020-09-23 09:30:42.313  INFO 8732 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SCW-USER with eureka with status UP
+2020-09-23 09:30:42.315  INFO 8732 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600824642315, current=UP, previous=STARTING]
+2020-09-23 09:30:42.317  INFO 8732 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000: registering service...
+2020-09-23 09:30:42.370  INFO 8732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7000 (http) with context path ''
+2020-09-23 09:30:42.371  INFO 8732 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7000
+2020-09-23 09:30:42.396  INFO 8732 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000 - registration status: 204
+2020-09-23 09:30:43.046  INFO 8732 --- [main] com.atguigu.scw.ScwUserApplication       : Started ScwUserApplication in 8.268 seconds (JVM running for 9.307)
+2020-09-23 09:31:12.306  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-23 09:31:12.306  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-23 09:31:12.307  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-23 09:31:12.307  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-23 09:31:12.307  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-23 09:31:12.307  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2020-09-23 09:31:12.307  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-23 09:31:12.339  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-23 09:32:18.036  INFO 8732 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-09-23 09:32:18.038  INFO 8732 --- [RMI TCP Connection(10)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SCW-USER with eureka with status DOWN
+2020-09-23 09:32:18.038  WARN 8732 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600824738038, current=DOWN, previous=UP]
+2020-09-23 09:32:18.038  INFO 8732 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000: registering service...
+2020-09-23 09:32:18.044  INFO 8732 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000 - registration status: 204
+2020-09-23 09:32:18.058  INFO 8732 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-23 09:32:18.060  INFO 8732 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-09-23 09:32:21.061  INFO 8732 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-09-23 09:32:21.069  INFO 8732 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000 - deregister  status: 200
+2020-09-23 09:32:21.078  INFO 8732 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-09-23 09:32:21.503  INFO 8732 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-09-23 09:32:29.379  INFO 9444 --- [main] com.atguigu.scw.ScwUserApplication       : No active profile set, falling back to default profiles: default
+2020-09-23 09:32:29.810  INFO 9444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 09:32:29.813  INFO 9444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 09:32:29.832  INFO 9444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-09-23 09:32:29.978  WARN 9444 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.atguigu.scw.user.mapper]' package. Please check your configuration.
+2020-09-23 09:32:30.058  INFO 9444 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aaaa99e8-ec4d-3c27-8c95-318c918e152f
+2020-09-23 09:32:30.355  INFO 9444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7000 (http)
+2020-09-23 09:32:30.381  INFO 9444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-23 09:32:30.382  INFO 9444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-23 09:32:30.519  INFO 9444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-23 09:32:30.520  INFO 9444 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1121 ms
+2020-09-23 09:32:30.782  WARN 9444 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-23 09:32:30.782  INFO 9444 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-23 09:32:30.786  WARN 9444 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-23 09:32:30.786  INFO 9444 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-23 09:32:30.991  INFO 9444 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 09:32:33.318  INFO 9444 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-23 09:32:33.356  INFO 9444 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-23 09:32:34.012  INFO 9444 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-23 09:32:34.013  INFO 9444 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-23 09:32:34.143  INFO 9444 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-23 09:32:34.143  INFO 9444 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-23 09:32:34.312  INFO 9444 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-23 09:32:34.767  INFO 9444 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-23 09:32:34.768  INFO 9444 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-23 09:32:34.768  INFO 9444 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-23 09:32:34.768  INFO 9444 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-23 09:32:34.768  INFO 9444 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-23 09:32:34.768  INFO 9444 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-23 09:32:34.768  INFO 9444 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-23 09:32:34.878  INFO 9444 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-23 09:32:34.880  INFO 9444 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-23 09:32:34.883  INFO 9444 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-23 09:32:34.887  INFO 9444 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600824754886 with initial instances count: 0
+2020-09-23 09:32:34.889  INFO 9444 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SCW-USER with eureka with status UP
+2020-09-23 09:32:34.890  INFO 9444 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600824754890, current=UP, previous=STARTING]
+2020-09-23 09:32:34.893  INFO 9444 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000: registering service...
+2020-09-23 09:32:34.944  INFO 9444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7000 (http) with context path ''
+2020-09-23 09:32:34.945  INFO 9444 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7000
+2020-09-23 09:32:34.973  INFO 9444 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000 - registration status: 204
+2020-09-23 09:32:35.603  INFO 9444 --- [main] com.atguigu.scw.ScwUserApplication       : Started ScwUserApplication in 8.391 seconds (JVM running for 9.422)
+2020-09-23 09:33:03.133  INFO 9444 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-09-23 09:33:03.134  INFO 9444 --- [RMI TCP Connection(9)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SCW-USER with eureka with status DOWN
+2020-09-23 09:33:03.134  WARN 9444 --- [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600824783134, current=DOWN, previous=UP]
+2020-09-23 09:33:03.134  INFO 9444 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000: registering service...
+2020-09-23 09:33:03.140  INFO 9444 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000 - registration status: 204
+2020-09-23 09:33:03.181  INFO 9444 --- [RMI TCP Connection(9)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-23 09:33:03.183  INFO 9444 --- [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-09-23 09:33:04.882  INFO 9444 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-23 09:33:04.882  INFO 9444 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-23 09:33:04.882  INFO 9444 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-23 09:33:04.882  INFO 9444 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-23 09:33:04.882  INFO 9444 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-23 09:33:04.882  INFO 9444 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2020-09-23 09:33:04.882  INFO 9444 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-23 09:33:04.915  INFO 9444 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-23 09:33:06.183  INFO 9444 --- [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-09-23 09:33:06.184  WARN 9444 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2020-09-23 09:33:06.191  INFO 9444 --- [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000 - deregister  status: 200
+2020-09-23 09:33:06.201  INFO 9444 --- [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-09-23 09:33:06.645  INFO 9444 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-09-23 09:33:14.290  INFO 13000 --- [main] com.atguigu.scw.ScwUserApplication       : No active profile set, falling back to default profiles: default
+2020-09-23 09:33:14.713  INFO 13000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 09:33:14.714  INFO 13000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 09:33:14.733  INFO 13000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-09-23 09:33:14.889  WARN 13000 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.atguigu.scw.user.mapper]' package. Please check your configuration.
+2020-09-23 09:33:14.967  INFO 13000 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aaaa99e8-ec4d-3c27-8c95-318c918e152f
+2020-09-23 09:33:15.250  INFO 13000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7000 (http)
+2020-09-23 09:33:15.273  INFO 13000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-23 09:33:15.273  INFO 13000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-23 09:33:15.414  INFO 13000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-23 09:33:15.414  INFO 13000 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1106 ms
+2020-09-23 09:33:15.646  WARN 13000 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-23 09:33:15.646  INFO 13000 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-23 09:33:15.649  WARN 13000 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-23 09:33:15.650  INFO 13000 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-23 09:33:15.845  INFO 13000 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 09:33:17.912  INFO 13000 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-23 09:33:17.948  INFO 13000 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-23 09:33:18.593  INFO 13000 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-23 09:33:18.593  INFO 13000 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-23 09:33:18.701  INFO 13000 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-23 09:33:18.701  INFO 13000 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-23 09:33:18.864  INFO 13000 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-23 09:33:19.308  INFO 13000 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-23 09:33:19.308  INFO 13000 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-23 09:33:19.308  INFO 13000 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-23 09:33:19.308  INFO 13000 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-23 09:33:19.308  INFO 13000 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-23 09:33:19.308  INFO 13000 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-23 09:33:19.308  INFO 13000 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-23 09:33:19.493  INFO 13000 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-23 09:33:19.496  INFO 13000 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-23 09:33:19.500  INFO 13000 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-23 09:33:19.503  INFO 13000 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600824799502 with initial instances count: 1
+2020-09-23 09:33:19.505  INFO 13000 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SCW-USER with eureka with status UP
+2020-09-23 09:33:19.506  INFO 13000 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600824799506, current=UP, previous=STARTING]
+2020-09-23 09:33:19.509  INFO 13000 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000: registering service...
+2020-09-23 09:33:19.553  INFO 13000 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000 - registration status: 204
+2020-09-23 09:33:19.553  INFO 13000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7000 (http) with context path ''
+2020-09-23 09:33:19.554  INFO 13000 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7000
+2020-09-23 09:33:20.181  INFO 13000 --- [main] com.atguigu.scw.ScwUserApplication       : Started ScwUserApplication in 7.895 seconds (JVM running for 8.863)
+2020-09-23 09:38:19.312  INFO 13000 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-23 09:43:19.315  INFO 13000 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-23 09:48:19.316  INFO 13000 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-23 09:53:19.319  INFO 13000 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-23 09:58:19.321  INFO 13000 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-23 10:02:50.400  INFO 13000 --- [RMI TCP Connection(38)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-09-23 10:02:50.402  INFO 13000 --- [RMI TCP Connection(38)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SCW-USER with eureka with status DOWN
+2020-09-23 10:02:50.402  WARN 13000 --- [RMI TCP Connection(38)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600826570402, current=DOWN, previous=UP]
+2020-09-23 10:02:50.402  INFO 13000 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000: registering service...
+2020-09-23 10:02:50.413  INFO 13000 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000 - registration status: 204
+2020-09-23 10:02:50.425  INFO 13000 --- [RMI TCP Connection(38)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-23 10:02:50.429  INFO 13000 --- [RMI TCP Connection(38)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-09-23 10:02:53.431  INFO 13000 --- [RMI TCP Connection(38)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-09-23 10:02:53.437  INFO 13000 --- [RMI TCP Connection(38)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/LAPTOP-0N7TRDVQ:SCW-USER:7000 - deregister  status: 200
+2020-09-23 10:02:53.449  INFO 13000 --- [RMI TCP Connection(38)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-09-23 10:02:53.904  INFO 13000 --- [RMI TCP Connection(38)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
